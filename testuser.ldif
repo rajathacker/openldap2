@@ -7,9 +7,9 @@ objectclass: shadowAccount
 sn: Hansson
 cn: Leslie Hansson
 uid: testuser
-uidNumber: 30000
+uidNumber: 5001
 homeDirectory: /home/testuser
-gidNumber: 30000
+gidNumber: 5001
 userPassword: {crypt}$1$i63t6NpP$pCuKfiNxeEvESbE/Z/QWB1
 telephoneNumber: 666 549 7452
 description: Sample Description
@@ -31,5 +31,5 @@ mail: testuser@example.com
 dn: cn=testuser,ou=People,ou=hr,dc=example,dc=com
 objectclass: posixGroup
 cn: testuser
-gidNumber: 30000
+gidNumber: 5001
 memberUid: testuser
