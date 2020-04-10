@@ -3,4 +3,4 @@ changetype: add
 objectClass: olcOverlayConfig
 objectClass: olcAuditLogConfig
 olcOverlay: auditlog
-olcAuditlogFile: /var/log/auditlog.log
+olcAuditlogFile: /var/log/ldap_audit.log
