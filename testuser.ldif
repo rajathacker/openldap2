@@ -10,7 +10,7 @@ uid: testuser
 uidNumber: 5001
 homeDirectory: /home/testuser
 gidNumber: 5001
-userPassword: {crypt}$1$i63t6NpP$pCuKfiNxeEvESbE/Z/QWB1
+userPassword: {crypt}PASSWORD
 telephoneNumber: 666 549 7452
 description: Sample Description
 street: 6713 Jesse Hill Jr Street
@@ -28,7 +28,7 @@ pager: 563 315 5781
 loginShell: /bin/bash
 mail: testuser@example.com
 
-dn: cn=testuser,ou=People,ou=hr,dc=example,dc=com
+dn: cn=testuser,ou=Groups,ou=hr,dc=example,dc=com
 objectclass: posixGroup
 cn: testuser
 gidNumber: 5001
