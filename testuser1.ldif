@@ -6,9 +6,9 @@ objectclass: posixAccount
 objectclass: shadowAccount
 sn: Hansson
 cn: Leslie Hansson
-uid: testuser
+uid: testuser1
 uidNumber: 5001
-homeDirectory: /home/testuser
+homeDirectory: /home/testuser1
 gidNumber: 5001
 userPassword: {crypt}PASSWORD
 telephoneNumber: 666 549 7452
@@ -26,10 +26,10 @@ homePostalAddress: 5102 Courtland Street $ Mount Prospect village, CT 33483-3294
 mobile: 678 301 0306
 pager: 563 315 5781
 loginShell: /bin/bash
-mail: testuser@example.com
+mail: testuser1@example.com
 
-dn: cn=testuser,ou=Groups,ou=hr,dc=example,dc=com
+dn: cn=testuser1,ou=Groups,ou=hr,dc=example,dc=com
 objectclass: posixGroup
-cn: testuser
+cn: testuser1
 gidNumber: 5001
-memberUid: testuser
+memberUid: testuser1
